@@ -1,0 +1,36 @@
+{
+  "name": "v-dep-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "preferGlobal": true,
+  "bin": {
+    "vdep": "./bin_start"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec ts-node -- main.ts",
+    "ts-node": "ts-node contact.ts",
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "chalk": "^2.4.2",
+    "commander": "^2.19.0",
+    "core-js": "^2.6.5",
+    "inquirer": "^6.2.2",
+    "ora": "^3.1.0"
+   },
+  "devDependencies": {
+    "@types/chalk": "^2.2.0",
+    "@types/commander": "^2.12.2",
+    "@types/core-js": "^2.5.0",
+    "@types/inquirer": "0.0.43",
+    "@types/ora": "^3.0.0",
+    "ts-node": "^3.3.0",
+    "typescript": "^3.2.4",
+    "nodemon": "^1.12.1"
+  }
+}
